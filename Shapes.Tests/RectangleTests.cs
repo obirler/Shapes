@@ -20,12 +20,14 @@ namespace Shapes.Tests
         public void Area_ReturnsCorrectArea()
         {
             var rectangle = new Rectangle(5, 10);
+            var area = rectangle.CalculateArea();
             Assert.AreEqual(50, area);
-
+        }
         [Test]
         public void Perimeter_ReturnsCorrectPerimeter()
         {
             var rectangle = new Rectangle(5, 10);
+            var perimeter = rectangle.CalculatePerimeter();
             Assert.AreEqual(30, perimeter);
-    }
+        }
 }
