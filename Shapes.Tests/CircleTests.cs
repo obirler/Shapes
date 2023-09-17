@@ -17,6 +17,7 @@ namespace Shapes.Tests
 
             // Assert
             Assert.AreEqual(expectedRadius, circle.Radius);
+            Debug.WriteLine($"Test Constructor_SetsRadius passed with expectedRadius: {expectedRadius} and actual radius: {circle.Radius}");
         }
 
         [Test]
@@ -32,6 +33,7 @@ namespace Shapes.Tests
 
             // Assert
             Assert.AreEqual(expectedArea, actualArea);
+            Debug.WriteLine($"Test Area_ReturnsCorrectValue passed with expectedArea: {expectedArea} and actual area: {actualArea}");
         }
 
         [Test]
@@ -47,6 +49,7 @@ namespace Shapes.Tests
 
             // Assert
             Assert.AreEqual(expectedPerimeter, actualPerimeter);
+            Debug.WriteLine($"Test Perimeter_ReturnsCorrectValue passed with expectedPerimeter: {expectedPerimeter} and actual perimeter: {actualPerimeter}");
         }
     }
 }
