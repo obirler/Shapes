@@ -7,14 +7,8 @@ namespace Shapes
         protected double Area { get; set; }
         protected double Perimeter { get; set; }
 
-        public virtual double CalculateArea()
-        {
-            throw new NotImplementedException("CalculateArea method must be implemented in the derived class");
-        }
+        public abstract double CalculateArea();
 
-        public virtual double CalculatePerimeter()
-        {
-            throw new NotImplementedException("CalculatePerimeter method must be implemented in the derived class");
-        }
+        public abstract double CalculatePerimeter();
     }
 }
