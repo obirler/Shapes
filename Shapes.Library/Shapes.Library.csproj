@@ -11,6 +11,9 @@
     <Compile Include="Rectangle.cs" />
     <Compile Include="Triangle.cs" />
     <!-- Add more shape classes as needed -->
+    <Compile Include="Square.cs" />
+    <Compile Include="Pentagon.cs" />
+    <Compile Include="Hexagon.cs" />
   </ItemGroup>
 
 </Project>
