@@ -8,6 +8,7 @@ This is a project that demonstrates the use of different shapes in C#.
 2. Open the solution file (Shapes.sln) in Visual Studio.
 3. Build the solution to restore the necessary packages and compile the project.
 4. Build the Shapes.Library project to compile the shape classes.
+5. Build the Shapes.VBLibrary project to compile the Visual Basic.Net shape classes.
 
 ## Usage
 
@@ -16,6 +17,10 @@ Run the project from Visual Studio. The application will demonstrate the use of 
 ## Usage of Shapes.Library
 
 To use the Shapes.Library in your project, add a reference to the Shapes.Library.csproj file in your project file. You can then use the shape classes in your code.
+
+## Usage of Shapes.VBLibrary
+
+To use the Shapes.VBLibrary in your project, add a reference to the Shapes.VBLibrary.vbproj file in your project file. You can then use the Visual Basic.Net shape classes in your code.
 
 ## Running Tests
 

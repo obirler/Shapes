@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Shapes.VBLibrary</RootNamespace>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>16.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shapes.Library\Shapes.Library.csproj" />
+  </ItemGroup>
+
+</Project>
