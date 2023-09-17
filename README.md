@@ -1,6 +1,6 @@
 # Shapes
 
-![GitHub Actions status](https://github.com/obirler/Shapes/actions/workflows/main.yml/badge.svg?branch=master)
+![GitHub Actions status](https://github.com/obirler/Shapes/actions/workflows/dotnet.yml/badge.svg?branch=master)
 
 This is a project that demonstrates the use of different shapes in C#.
 
