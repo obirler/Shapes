@@ -27,5 +27,5 @@ To use the Shapes.VBLibrary in your project, add a reference to the Shapes.VBLib
 To run the tests, navigate to the root directory of the project in your terminal and run the following command:
 
 ```shell
-dotnet test
+dotnet test Shapes.Tests
 ```
