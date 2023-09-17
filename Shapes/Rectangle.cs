@@ -2,7 +2,7 @@ using System;
 
 namespace Shapes
 {
-    public class Rectangle
+    public class Rectangle : Shape
     {
         private double length;
         private double width;
@@ -13,9 +13,13 @@ namespace Shapes
             this.width = width;
         }
 
-        public double CalculateArea()
+        public override double CalculateArea()
         {
             return this.length * this.width;
+        }
+        public override double CalculatePerimeter()
+        {
+            return 2 * (this.length + this.width);
         }
     }
 }
