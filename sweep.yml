@@ -1,0 +1,11 @@
+version: "1.0"
+
+sweep:
+  schedule: 0 0 * * * # Run the bot every day at midnight
+  tasks:
+    - name: Build
+      command: dotnet build
+    - name: Test
+      command: dotnet test
+    - name: Check code style
+      command: dotnet format --check
