@@ -22,4 +22,4 @@ jobs:
         run: dotnet build
 
       - name: Run tests
-        run: dotnet test Shapes.Tests
+        run: dotnet test
