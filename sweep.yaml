@@ -1,4 +1,9 @@
 version: "1.0"
+gha_enabled: True
+branch: main
+blocked_dirs: [".github/"]
+draft: False
+description: "sweepai/sweep is a .Net 7 C# console application project. Write code in object oriented manner and always write documentations of the methods you created. "
 
 sweep:
   schedule: 0 0 * * * # Run the bot every day at midnight
