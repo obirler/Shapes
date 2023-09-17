@@ -11,3 +11,11 @@ This is a project that demonstrates the use of different shapes in C#.
 ## Usage
 
 Run the project from Visual Studio. The application will demonstrate the use of different shapes.
+
+## Running Tests
+
+To run the tests, navigate to the root directory of the project in your terminal and run the following command:
+
+```shell
+dotnet test
+```
