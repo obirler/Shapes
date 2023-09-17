@@ -13,4 +13,8 @@
     <!-- Add more shape classes as needed -->
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
 </Project>
