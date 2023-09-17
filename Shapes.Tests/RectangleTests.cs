@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using Shapes;
+using System.Diagnostics;
 
 namespace Shapes.Tests
 {
@@ -12,6 +13,7 @@ namespace Shapes.Tests
 
             Assert.AreEqual(5, rectangle.Length);
             Assert.AreEqual(10, rectangle.Width);
+            Debug.WriteLine($"Test Constructor_SetsLengthAndWidth passed with expectedLength: 5, expectedWidth: 10, actual length: {rectangle.Length}, and actual width: {rectangle.Width}");
         }
 
         [Test]
