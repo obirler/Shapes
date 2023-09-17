@@ -31,3 +31,19 @@ To run the tests, navigate to the root directory of the project in your terminal
 ```shell
 dotnet test Shapes.Tests
 ```
+
+## C++ CLR Project Setup Instructions
+
+1. Open the solution file (Shapes.CLRProject.vcxproj) in Visual Studio.
+
+### C++ CLR Project Build Instructions
+
+1. Open the solution file (Shapes.CLRProject.vcxproj) in Visual Studio.
+2. Build the solution to restore the necessary packages and compile the project.
+3. Build the Shapes.CLRProject project to compile the shape classes.
+
+### C++ CLR Project Usage
+
+Run the project from Visual Studio. The application will demonstrate the use of different shapes in C++ CLR.
+
+To use the shape classes in your project, add a reference to the Shapes.CLRProject.vcxproj file in your project file. You can then use the shape classes in your code. Make sure to also add a reference to the Shapes project in the Shapes.CLRProject.vcxproj file.
