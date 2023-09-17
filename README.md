@@ -46,4 +46,4 @@ dotnet test Shapes.Tests
 
 Run the project from Visual Studio. The application will demonstrate the use of different shapes in C++ CLR.
 
-To use the shape classes in your project, add a reference to the Shapes.CLRProject.vcxproj file in your project file. You can then use the shape classes in your code.
+To use the shape classes in your project, add a reference to the Shapes.CLRProject.vcxproj file in your project file. You can then use the shape classes in your code. Make sure to also add a reference to the Shapes project in the Shapes.CLRProject.vcxproj file.
