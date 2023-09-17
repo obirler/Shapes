@@ -12,6 +12,7 @@ namespace Shapes.Tests
             var square = new Square(5);
 
             Assert.AreEqual(5, square.SideLength);
+            Debug.WriteLine($"Test Constructor_SetsSideLength passed with expected SideLength: 5 and actual SideLength: {square.SideLength}");
         }
 
         [Test]
@@ -22,6 +23,7 @@ namespace Shapes.Tests
             var result = square.Area();
 
             Assert.AreEqual(25, result);
+            Debug.WriteLine($"Test Area_ReturnsCorrectValue passed with expected Area: 25 and actual Area: {result}");
         }
 
         [Test]
@@ -32,6 +34,7 @@ namespace Shapes.Tests
             var result = square.Perimeter();
 
             Assert.AreEqual(20, result);
+            Debug.WriteLine($"Test Perimeter_ReturnsCorrectValue passed with expected Perimeter: 20 and actual Perimeter: {result}");
         }
     }
 }
