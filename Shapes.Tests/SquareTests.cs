@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using Shapes;
+using System.Diagnostics;
 
 namespace Shapes.Tests
 {
