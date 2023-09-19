@@ -14,33 +14,30 @@ This is a project that demonstrates the use of different shapes in C#.
 
 ## Usage
 
-Run the project from Visual Studio. The application will demonstrate the use of different shapes.
+To generate desired shapes using the ShapeFactory class, follow these steps:
 
-## Usage of Shapes.Library
+1. Run the project from Visual Studio. The application will demonstrate the use of different shapes.
 
-To use the Shapes.Library in your project, add a reference to the Shapes.Library.csproj file in your project file. You can then use the shape classes in your code.
+2. To use the Shapes.Library in your project, add a reference to the Shapes.Library.csproj file in your project file. You can then use the shape classes in your code.
 
-## Usage of Shapes.VBLibrary
+3. To use the Shapes.VBLibrary in your project, add a reference to the Shapes.VBLibrary.vbproj file in your project file. You can then use the Visual Basic.Net shape classes in your code.
 
-To use the Shapes.VBLibrary in your project, add a reference to the Shapes.VBLibrary.vbproj file in your project file. You can then use the Visual Basic.Net shape classes in your code.
-
-## Running Tests
-
-To run the tests, navigate to the root directory of the project in your terminal and run the following command:
+4. To run the tests, navigate to the root directory of the project in your terminal and run the following command:
 
 ```shell
 dotnet test Shapes.Tests
 ```
 
-## C++ CLR Project Setup Instructions
-
-1. Open the solution file (Shapes.CLRProject.vcxproj) in Visual Studio.
-
-### C++ CLR Project Build Instructions
-
-1. Open the solution file (Shapes.CLRProject.vcxproj) in Visual Studio.
-2. Build the solution to restore the necessary packages and compile the project.
-3. Build the Shapes.CLRProject project to compile the shape classes.
+1. C++ CLR Project Setup Instructions:
+   1. C++ CLR Project Setup Instructions:
+      - Open the solution file (Shapes.CLRProject.vcxproj) in Visual Studio.
+   2. C++ CLR Project Build Instructions:
+      - Build the solution to restore the necessary packages and compile the project.
+      - Build the Shapes.CLRProject project to compile the shape classes.
+   3. C++ CLR Project Usage:
+2. C++ CLR Project Usage:
+   - Run the project from Visual Studio. The application will demonstrate the use of different shapes in C++ CLR.
+   - To use the shape classes in your project, add a reference to the Shapes.CLRProject.vcxproj file in your project file. You can then use the shape classes in your code. Make sure to also add a reference to the Shapes project in the Shapes.CLRProject.vcxproj file.
 
 ### C++ CLR Project Usage
 
