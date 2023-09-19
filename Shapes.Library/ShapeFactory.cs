@@ -4,19 +4,25 @@ namespace Shapes.Library
 {
     public class ShapeFactory
     {
-        public static Shape CreateShape(string shapeType)
+        public static Shape[] CreateShapes(params string[] shapeTypes)
         {
-            switch (shapeType.ToLower())
+            Shape[] shapes = new Shape[shapeTypes.Length];
+            for (int i = 0; i < shapeTypes.Length; i++)
             {
-                case "circle":
-                    return new Circle();
-                case "rectangle":
-                    return new Rectangle();
-                case "triangle":
-                    return new Triangle();
-                default:
-                    throw new ArgumentException("Invalid shape type");
+                switch (shapeTypes[i].ToLower())
+                {
+                    case "circle":
+                        shapes[i] = new Circle();
+                        break;
+                    case "rectangle":
+                        shapes[i] = new Rectangle();
+                        break;
+                    case "triangle":
+                        shapes[i] = new Triangle();
+                        break;
+                    default:
+                        throw new ArgumentException("Invalid shape type");
+                }
             }
+            return shapes;
         }
-    }
-}
