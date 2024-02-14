@@ -27,3 +27,8 @@ foreach (Shape shape in shapes) // Iterating over the list of shapes
 {
     Console.WriteLine("Area of shape: " + shape.CalculateArea()); // Printing the area of the shape
 }
+// Creating an instance of the XML writer
+XmlWriter xmlWriter = XmlWriter.Create("shapes.xml");
+// Calling the WriteShapesToXml method
+ShapeFactory.WriteShapesToXml(shapes, xmlWriter);
+xmlWriter.Close();
